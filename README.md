@@ -23,13 +23,25 @@ El controlador instancia un objeto de vista para lanzar los formularios adecuado
 
 Hemos dicho que la lista de usuarios es un hashmap que almacena un string (un mail) y un objeto MiColeccionWeb.  Este objeto de tipo MiColeccionWeb es un objeto con dos elmentos: un objeto User (datos del usuario) y una lista de objetos ColeccionWeb. Éste último no es más que interfaz de la clase de elementos que almacenamos ennuestra app, vídeos.
 
-ListadeUsuarios:<mail,<User,Lista<Videos>>>  
+ListadeUsuarios<String,MiColeccionWeb>   => MiColeccionWeb<User, List<ColeccionWeb>>  =>   ListadeUsuarios<mail,<User,Lista<Videos>>>  
    
 El controlador necesita por lo tanto objetos de las clases BasicUser (User), Video (ColeccionWeb) para poder manejar objetos del tipo MiColeccionWeb.
 De esta manera igualmente podrá trabajar con estos objetos MiColeccionWeb en la lista principal de usuarios configurados en el MAP.
 
 Resumen clases:
 
+BasicUser :    Implementa User.  Maneja los datos de un usuario y comprobaciones.
+Video:         Implementa ColeccionWeb. Maneja los datos y comprobaciones sobre un ítem video.
+VistaMenu:     Responsable de lanzar las vistas con joptionpane. Recibe preguntas y devuelven respuestas.
+MiColeccionWeb:Clase responsable de la definición y operativa con los objetos de las clase ColeccionWeb y User que forman parte del campo valor del MAP
+ListaUsuarios: Clase singleton que almacena un MAP con clave unstring (mail del usuario) y valor un objeto MiColeccionWeb.
+ControladorVistaMenu: Responsab le de lanzar y recoger datos de los formularios para luego actualizar la listadeusuarios.
+
+VideosAppPrincipal: Clase principal MAIN. 
+
+TrabajoConCadenasYColecciones: Clase de utilizades para manejar cadenas y colecciones. En nuestro casonos ayuda a transformar string a listas. Eliminar ciertos caracteres no deseados.
+
+Claes de excepciones: Clases queherdan de Exception y manejan excepciones personalizadas.
 
 
 
