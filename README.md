@@ -41,7 +41,7 @@ VideosAppPrincipal: Clase principal MAIN.
 <br><br>
 TrabajoConCadenasYColecciones: Clase de utilizades para manejar cadenas y colecciones. En nuestro casonos ayuda a transformar string a listas. Eliminar ciertos caracteres no deseados.
 
-Claes de excepciones: Clases queherdan de Exception y manejan excepciones personalizadas.
+Clases de excepciones: Clases que heredan de Exception y manejan excepciones personalizadas.
 
 
 
