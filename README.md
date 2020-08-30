@@ -23,5 +23,20 @@ El controlador instancia un objeto de vista para lanzar los formularios adecuado
 
 Hemos dicho que la lista de usuarios es un hashmap que almacena un string (un mail) y un objeto MiColeccionWeb.  Este objeto de tipo MiColeccionWeb es un objeto con dos elmentos: un objeto User (datos del usuario) y una lista de objetos ColeccionWeb. Éste último no es más que interfaz de la clase de elementos que almacenamos ennuestra app, vídeos.
 
+ListadeUsuarios:<mail,<User,Lista<Videos>>>  
+   
+El controlador necesita por lo tanto objetos de las clases BasicUser (User), Video (ColeccionWeb) para poder manejar objetos del tipo MiColeccionWeb.
+De esta manera igualmente podrá trabajar con estos objetos MiColeccionWeb en la lista principal de usuarios configurados en el MAP.
+
+Resumen clases:
+
+
+
+
+
+
+
+
+
 
         
