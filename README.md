@@ -30,15 +30,15 @@ De esta manera igualmente podrá trabajar con estos objetos MiColeccionWeb en la
 
 Resumen clases:
 
-BasicUser :    Implementa User.  Maneja los datos de un usuario y comprobaciones.
-Video:         Implementa ColeccionWeb. Maneja los datos y comprobaciones sobre un ítem video.
-VistaMenu:     Responsable de lanzar las vistas con joptionpane. Recibe preguntas y devuelven respuestas.
-MiColeccionWeb:Clase responsable de la definición y operativa con los objetos de las clase ColeccionWeb y User que forman parte del campo valor del MAP
-ListaUsuarios: Clase singleton que almacena un MAP con clave unstring (mail del usuario) y valor un objeto MiColeccionWeb.
-ControladorVistaMenu: Responsab le de lanzar y recoger datos de los formularios para luego actualizar la listadeusuarios.
-
+BasicUser :    Implementa User.  Maneja los datos de un usuario y comprobaciones.<br>
+Video:         Implementa ColeccionWeb. Maneja los datos y comprobaciones sobre un ítem video.<br>
+VistaMenu:     Responsable de lanzar las vistas con joptionpane. Recibe preguntas y devuelven respuestas.<br>
+MiColeccionWeb:Clase responsable de la definición y operativa con los objetos de las clase ColeccionWeb y User que forman parte del campo valor del MAP<br>
+ListaUsuarios: Clase singleton que almacena un MAP con clave unstring (mail del usuario) y valor un objeto MiColeccionWeb.<br>
+ControladorVistaMenu: Responsab le de lanzar y recoger datos de los formularios para luego actualizar la listadeusuarios.<br>
+<br><br>
 VideosAppPrincipal: Clase principal MAIN. 
-
+<br><br>
 TrabajoConCadenasYColecciones: Clase de utilizades para manejar cadenas y colecciones. En nuestro casonos ayuda a transformar string a listas. Eliminar ciertos caracteres no deseados.
 
 Claes de excepciones: Clases queherdan de Exception y manejan excepciones personalizadas.
