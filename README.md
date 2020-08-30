@@ -7,7 +7,7 @@ Descripción Paquetes:
 - Utilidades: PAquete que tiene una clase para manejar cadenas y colecciones.
 - excepcionesPropias: Paquete con dos clases para manejar excepciones personalizadas.
 - dominioVideos: Este paquete contiene las clases principales de la APP y varios subpaquetes.
-    - ColeccionesWeb : Este paquete nos define articulos de tipo Web.
+    - ColeccionesWeb : Este paquete nos define articulos de tipo Web. Básicamente artículos que al ser de la web, tiene un campo url.
         - ColeccionesWeb.Basico: Aquí definimos colecciones básicas de tipo web.
     - gestionTiposUsuarios: Este paquete nos define los tipos de usuario y su gestión.
     
